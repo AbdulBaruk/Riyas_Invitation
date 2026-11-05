@@ -11,12 +11,14 @@ export const QURAN_REFERENCE = "Surah Ar-Rum 30:21";
 export const invitation = {
   groom: {
     name: "H. Abdul Riyas Khan",
+    shortName: "Riyas",
     qualification: "B.E.",
     company: "Accenture Solutions Pvt. Ltd., Bangalore",
     parents: "H. Hameed & Family",
   },
   bride: {
     name: "S. Shabana Begum",
+    shortName: "Shabana",
     qualification: "B.E.",
     parents: "S. Shahul Hameed & Family",
   },

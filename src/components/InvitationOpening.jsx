@@ -140,7 +140,7 @@ export default function InvitationOpening({ onOpen }) {
           {t.subInvited}
         </p>
         <h2 className="mt-1 font-serif text-xl sm:text-2xl text-white font-medium drop-shadow-sm">
-          {invitation.groom.name} &amp; {invitation.bride.name}
+          {invitation.groom.shortName || "Riyas"} &amp; {invitation.bride.shortName || "Shabana"}
         </h2>
       </motion.div>
 
@@ -246,12 +246,12 @@ export default function InvitationOpening({ onOpen }) {
 
           <div className="my-1.5 h-px w-24 bg-gradient-to-r from-transparent via-gold to-transparent" />
 
-          <h3 className="font-serif text-base sm:text-lg font-bold text-[#140024] leading-tight">
-            {invitation.groom.name}
+          <h3 className="font-serif text-lg sm:text-xl font-bold text-[#140024] leading-tight">
+            {invitation.groom.shortName || "Riyas"}
           </h3>
           <p className="text-xs text-[#B8860B] font-serif italic my-0.5 font-bold">&amp;</p>
-          <h3 className="font-serif text-base sm:text-lg font-bold text-[#140024] leading-tight">
-            {invitation.bride.name}
+          <h3 className="font-serif text-lg sm:text-xl font-bold text-[#140024] leading-tight">
+            {invitation.bride.shortName || "Shabana"}
           </h3>
 
           <div className="mt-2 text-center">
